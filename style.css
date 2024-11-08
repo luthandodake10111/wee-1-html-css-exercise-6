@@ -1,0 +1,80 @@
+/* Styling of the body on the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: snow;
+}
+/* Styling of the headers in the website */
+header {
+    background-color: beige;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling of the Sections in the website */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling of the forms in the website */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/* Edits or stylings of the labels in the websites */
+label {
+    margin: 10px 0 5px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+}
+
+/* Edit of the 'Get intouch with us' buttton */
+button {
+    padding: 12px 24px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Edit of the hovering button when hovering over the 'Get intouch with us' button */
+button:hover {
+    background-color: darkgray;
+    
+}
+/* Edits of the 'Available Appointment Times and Operation Hours table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+/* The end of my css(stylings) of the website. THANK YOU!!!  */
